@@ -12,7 +12,7 @@
 */
 
 $router->get('/', function () use ($router) {
-    // return Illuminate\Support\Str::random(32);
+    // return Illuminate\Support\Str::random(100);
     return $router->app->version();
 });
 
